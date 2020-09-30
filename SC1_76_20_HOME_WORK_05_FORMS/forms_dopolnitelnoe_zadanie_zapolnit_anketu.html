@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тема: Формы. Дополнительное задание: Заполнить анкету</title>
+</head>
+<body leftmargin="150" topmargin="80">
+
+<h2 align="center">Заполните анкету</h2>
+
+
+<form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post">
+
+<fieldset>
+
+ <legend>Личные данные</legend>
+ 
+  <form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post">
+ 
+  <fieldset>
+                   
+<input type="text" maxlength="25" ID="surname" name="surname" placeholder="Фамилия"
+           autofocus pattern="^[А-Я][а-я]{1,25}">
+          <small>(Только кириллица, без пробелов, длина поля 25 символов, обязательное поле, автофокус 
+           на данном поле)</small><br>
+   
+    <input type="text" maxlength="20" ID="name" name="name" placeholder="Имя" pattern="^[А-Я][а-я]{1,20}"> 
+   <small>(Только кириллица, без пробелов, длина поля 20 символов, обязательное поле)</small><br>
+    
+<input type="text" maxlength="24" ID="middle_name" name="middle_name" placeholder="Отчество" 
+         pattern="^[А-Я][а-я]{1,24}"> <small>(Только кириллица, без пробелов, длина поля 24 символа, 
+         обязательное поле)</small><br>
+
+</fieldset>
+
+  <fieldset> 
+  <legend>Паспортные данные</legend>
+
+  <input type="text" maxlength="2" placeholder="Серия" pattern="^[A-Z]{2,2}">
+  <input type="text" maxlength="7" placeholder="Номер" pattern="[0-7]{7.}">
+
+</fieldset>
+
+  <form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post">
+
+   <fieldset> 
+  <legend>Дата рождения</legend>
+  
+  <input type="text" maxlength="4" placeholder="Год рождения" pattern="[0-9]">
+   <br>
+       
+   <select name="list" id="list">   
+    <option value="1">Январь</option>
+    <option value="2">Февраль</option>
+    <option value="3">Март</option>
+    <option value="4">Апрель</option>
+    <option value="5">Май</option>
+    <option value="6">Июнь</option>
+    <option value="7">Июль</option>
+    <option value="8">Август</option>
+    <option value="9">Сентябрь</option>
+    <option value="10">Октябрь</option>
+    <option value="11">Ноябрь</option>
+    <option value="12">Декбрь</option>
+</select>
+  <br>
+
+  <input type="number" min="0" max="31" step="1" placeholder="Число">
+   
+   </fieldset>
+    
+  <br>
+  <select name="list" id="list">
+    <option value="1">РБ</option>
+    <option value="2">РФ</option>
+    <option value="3">Литва</option>
+    <option value="4">Латвия</option>
+    <option value="5">США</option>
+    <option value="6">Англия</option>
+    <option value="7">Германия</option>
+    <option value="8">Франция</option>
+    <option value="9">Италия</option>
+    <option value="10">Эстония</option>
+    <option value="11">Франция</option>
+    <option value="12">Испания</option>
+</select><small> (Национальность - выбор одного значения из списка, обязательное поле)</small>
+      <br><br>          
+   <textarea name="text_area" lang="ru">Адрес:</textarea>
+   
+</fieldset></form>
+
+    <form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post">
+<fieldset>
+
+    <legend>Интересы</legend>
+ 
+  
+    <form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post">
+    
+     <fieldset>
+    <legend>Хобби</legend>
+    
+    <label>
+           <input type="checkbox" name="val_1" id="chebox1" checked> Рыбалка 
+    </label>
+               <br>     
+    <label>
+           <input type="checkbox" name="val_2" id="chebox2" checked> Астрономия 
+    </label>
+               <br>
+    <label>
+           <input type="checkbox" name="val_3" id="chebox3" checked> Дайвинг 
+    </label>
+              <br>
+    <label>
+          <input type="checkbox" name="val_4" id="chebox4" checked> Сборка моделей кораблей 
+    </label>
+
+    </fieldset></form>
+ 
+
+    <form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post">
+        <fieldset>
+        <legend>Домашние животные(возможность выбора нескольких вариантов):</legend>
+        
+        <select name="list" id="list" multiple>   
+            
+            <optgroup label="Попугаи">
+            <option value="1">Волнистый</option>
+            <option value="2">Ара</option>
+            <option value="3">Неразлучник</option></optgroup>
+            
+            <optgroup label="Рыба">
+            
+            <option value="4">Судак</option>
+            <option value="5">Окунь</option>
+            <option value="6">Осетр</option></optgroup>
+            
+            <optgroup label="Хищники">
+            
+            <option value="7">Медведь</option>
+            <option value="8">Волк</option>
+            <option value="9">Тигр</option></optgroup>
+        </select>
+       
+    </fieldset></form>
+
+</fieldset></form>
+
+    <form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post">
+    <fieldset>
+              
+    <legend>Данные для входа и восставноления пароля</legend>
+                     
+        <input type="text" maxlength="20" autocomplete="off" 
+        name="login" placeholder="Логин" pattern="^[A-Z]{5,20}"><br>
+       
+        <input type="password" maxlength="20" autocomplete="off"
+        name="password" placeholder="Пароль" pattern="^[A-Z]{10,10}"> 
+     
+    </fieldset></form>
+    
+      
+    <form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post">
+
+    <fieldset>
+             <legend>Координаты</legend>
+            
+             <input type="email" placeholder="введите адрес почты">   <br>
+             <input type="url" placeholder="введите адрес сайта">                            
+             
+    </fieldset></form>
+     
+    <form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post" 
+   enctype="multipart/form-data">
+    
+     <fieldset>
+              
+    <legend>Цифры</legend>
+                       
+   <input type="number" min="-2.5" max="2.5" step="0.1"><br>
+   <input type="range" min="1" max="10" step="1">
+       
+    </fieldset></form>
+    
+    <form id="my_form" name="user_data" action="http://sc.it-academy.by/fe/form.php" method="post">
+
+    <fieldset>
+    <legend>Кнопки управления</legend>
+                    <button type="submit" value="submit">Отправить</button>             
+                    <button type="reset" value="reset">Сбросить</button><br> 
+                    <button type="button"> 
+                    <b>Submit</b><br>    
+                    <img src="email.jpg"></button> 
+    </fieldset></form>
+                
+     </body>
+</html>
