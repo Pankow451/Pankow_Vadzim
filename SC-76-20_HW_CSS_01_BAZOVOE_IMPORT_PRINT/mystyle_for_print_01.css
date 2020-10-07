@@ -1,0 +1,36 @@
+@import "mystyle_for_print_01.css"; 
+
+th {font-family:serif; 
+        font-size: 55px; 
+        background-color: #000}  
+    
+    
+    li {
+        font-family:serif; 
+        font-size: 55px; 
+        background-color: #000}                                
+
+    a {    
+        font-family:serif; 
+        font-size: 55px; 
+        background-color: #000}   
+        
+    tr {
+        font-family:serif; 
+        font-size: 55px; 
+        background-color: #000}  
+    
+    p  {
+        font-family:serif; 
+        font-size: 55px; 
+        background-color: #000}  
+    
+    h2 {
+        font-family:serif; 
+        font-size: 55px; 
+        background-color: #000} 
+    
+    pre {
+         font-family:serif; 
+         font-size: 55px; 
+         background-color: #000} 

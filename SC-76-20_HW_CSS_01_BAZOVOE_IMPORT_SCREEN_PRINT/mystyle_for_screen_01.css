@@ -1,0 +1,37 @@
+@import "mystyle_for_screen_01.css";
+
+th {
+    
+    font-family:sans-serif; 
+    font-size: 14px; 
+    background-color: #eee}  
+
+li {
+    font-family:sans-serif; 
+    font-size: 14px; 
+    background-color: #eee}                                
+
+a {    
+    font-family:sans-serif; 
+    font-size: 14px; 
+    background-color: #eee}   
+    
+tr {
+    font-family:sans-serif; 
+    font-size: 14px; 
+    background-color: #eee}  
+
+p  {
+    font-family:sans-serif; 
+    font-size: 14px; 
+    background-color: #eee}  
+
+h2 {
+    font-family:sans-serif; 
+    font-size: 14px; 
+    background-color: #eee} 
+
+pre {
+     font-family:sans-serif; 
+     font-size: 14px; 
+     background-color: #eee} 
