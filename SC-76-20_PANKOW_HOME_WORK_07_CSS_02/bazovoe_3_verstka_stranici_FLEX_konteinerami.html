@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Flex_containers. Тренировка.</title>
+ 
+<style>
+
+       .flex_box {
+  
+  display: flex; /*activate power*/
+  flex-direction: row;
+  justify-content:         ;
+  align-items:      ;
+  align-content:   ;
+  order:       ;  
+  align-self:  ;
+  margin:         ;
+  padding:          ;
+  background: #aab950;
+  list-style:    ;
+  flex-wrap: nowrap; /*justify-content: space-around;*/
+  height:       px;   /*align-items: center;*/
+  /*align-content: space-between;*/
+           
+           }
+  
+  .left_sidebar {
+       
+       display: flex;
+       flex-direction: column;
+       height: 320px;
+       width: 15em;
+       background-color: rgb(122, 175, 235);    
+          
+                } 
+
+  .article  {
+       
+       display: flex;
+       flex-direction: column; 
+       flex-wrap: nowrap;
+       justify-content: space-around;
+       width: 85em;    
+         
+             }
+      
+      .image {
+                 
+            float: right; 
+            margin-right: 5px;
+            margin-bottom: 5px;
+            
+             }
+
+      .footer {
+                      
+           background-color: rgb(144, 151, 129);
+           margin-top: 3px; 
+              }  
+ 
+</style>
+
+</head>
+
+<body>
+ 
+     <div class="flex_box">
+      
+             <div class="left_sidebar">
+             
+               <ul>
+                   <li>Ширина 15ем;</li>
+                   <li>Присутвует цвет фона;</li>
+                   <li>Располагается слева;</li> 
+                   <li>Заполняется контентом достаточным для того, чтобы по 
+                       высоте он начинал захватывать вторую статью, как показано
+                       в примере;</li>
+               </ul></div>         
+
+                           
+           <div class="article">   
+       
+                    <section style="background-color: rgb(120, 120, 236);
+                             margin-bottom: 2px;"> 
+       
+                       <h2>СТАТЬЯ 1</h2>
+                      
+                       <p>Размер блока:<br> 
+                          Занимает всю доступную ширину;<br>
+                          Присутвует цвет фона;<br> 
+                          Во всех статьях сделан отступ 
+                          снизу от соседа равный 2ем при помощи свойства "margin bottom".</p>
+
+                    </section> 
+                   
+                    <section style="background-color: rgb(113, 113, 197);
+                             margin-top: 2px;"> 
+       
+                      <h2>СТАТЬЯ 2</h2>
+                        
+                        <p>Размер блока: <br>Занимает всю доступную ширину;<br>
+                            Присутвует цвет фона;<br>
+                            Во всех статьях сделан отступ снизу от соседа равный 2ем 
+                            при помощи свойства "margin bottom".Картинка вставлена при 
+                            помощи тэга, плавание организовано по правому краю внутри 
+                            данной статьи для этой картинки. Lorem ipsum dolor sit amet 
+                            consectetur adipisicing elit. Nihil, voluptatum blanditiis 
+                            dolores, distinctio dolorem praesentium iusto quas perferendis 
+                            alias dolore minus quod cumque magnam suscipit earum eius 
+                            obcaecati a magni?  Lorem ipsum dolor sit amet 
+                            consectetur adipisicing elit. Nihil, voluptatum blanditiis 
+                            dolores, distinctio dolorem praesentium iusto quas perferendis 
+                            alias dolore minus quod cumque magnam suscipit earum eius 
+                            obcaecati a magni? </p>
+                                    
+                          <div class="image"> 
+                            
+                             <img src="img/email_PNG_80px.png"></div>   
+
+                    </section>
+
+            </div></div></div>
+
+  <footer class="footer">Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется
+                         помещённым в него контентом. Lorem,ipsum dolor sit amet consectetur 
+                         adipisicing elit.Aspernatur aperiam,ducimus dicta, beatae quos sed hic 
+                         facilis maiores illum doloribus aliquidlibero quam asperiores cum soluta ex, 
+                         eos ratione voluptatum.</footer>
+
+ </body>
+
+</html>
